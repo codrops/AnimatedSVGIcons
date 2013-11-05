@@ -6,7 +6,7 @@ Using SVGs on websites is becoming more and more easy with great libraries like 
 
 [Article on Codrops](http://tympanus.net/codrops/?p=16851)
 
-[Demo](http://tympanus.net/Tutorials/AnimatedSVGIcons/)
+[Demo](http://tympanus.net/Development/AnimatedSVGIcons/)
 
 Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
 
