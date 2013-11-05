@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<rect y="24.800842" x="20.832533" height="24.846273" width="33.128365" stroke="#fff" fill="none" stroke-width="3" stroke-linecap="square" />
+		<rect style="opacity:0;" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="square" width="33.128365" height="24.846273" x="20.832533" y="24.800842" />
+		<rect style="opacity:0;" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="square" width="33.128365" height="24.846273" x="20.851601" y="24.790384" />
+	</g>
+</svg>

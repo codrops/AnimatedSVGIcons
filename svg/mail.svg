@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill="#fff" d="m 61.693118,24.434001 -59.386236,0 29.692524,19.897984 z"/>
+		<polygon fill="#fff" points="50,61.447 99.998,27.447 99.998,83 0,83 0,27.447 " transform="matrix(0.59386236,0,0,0.59386236,2.306882,10.338341)" />
+	</g>
+</svg>

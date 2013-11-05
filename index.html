@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Animated SVG Icons: Using Snap.svg to animate SVG icons</title>
+		<meta name="description" content="Animated SVG Icons: Using Snap.svg to animate SVG icons" />
+		<meta name="keywords" content="svg, animated svg, svg icons, snap.svg, integrate svg icons on website, hover svg" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/snap.svg-min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Tutorials/MediumStylePageTransition/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16851"><span>Back to the Codrops Article</span></a></span>
+			</div>
+			<header>
+				<h1>Animated SVG Icons <span>Using Snap.svg to animate SVG icons</span></h1> 
+			</header>
+			<section class="si-icons si-icons-default">
+				<span class="si-icon si-icon-nav-left-arrow" data-icon-name="navLeftArrow"></span>
+				<span class="si-icon si-icon-nav-up-arrow" data-icon-name="navUpArrow"></span>
+				<span class="si-icon si-icon-right-arrow" data-icon-name="rightArrow"></span>
+				<span class="si-icon si-icon-down-arrow" data-icon-name="downArrow"></span>
+				<span class="si-icon si-icon-hamburger" data-icon-name="hamburger"></span>
+				<span class="si-icon si-icon-hamburger-cross" data-icon-name="hamburgerCross"></span>
+				<span class="si-icon si-icon-plus" data-icon-name="plus"></span>
+				<span class="si-icon si-icon-plus-cross" data-icon-name="plusCross"></span>
+				<span class="si-icon si-icon-maximize" data-icon-name="maximize"></span>
+				<span class="si-icon si-icon-maximize-rotate" data-icon-name="maximizeRotate"></span>
+				<span class="si-icon si-icon-contract" data-icon-name="contract"></span>
+				<span class="si-icon si-icon-play" data-icon-name="play"></span>
+				<span class="si-icon si-icon-monitor" data-icon-name="monitor"></span>
+				<span class="si-icon si-icon-trash" data-icon-name="trash"></span>
+				<span class="si-icon si-icon-flag" data-icon-name="flag"></span>
+				<span class="si-icon si-icon-volume" data-icon-name="volume"></span>
+				<span class="si-icon si-icon-clock" data-icon-name="clock"></span>
+				<span class="si-icon si-icon-mail" data-icon-name="mail"></span>
+				<span class="si-icon si-icon-smiley" data-icon-name="smiley"></span>
+				<span class="si-icon si-icon-equalizer" data-icon-name="equalizer"></span>
+				<span class="si-icon si-icon-glass-empty" data-icon-name="glass"></span>
+				<span class="si-icon si-icon-lock" data-icon-name="padlock"></span>
+				<span class="si-icon si-icon-hourglass" data-icon-name="hourglass"></span>
+				<span class="si-icon si-icon-zoom" data-icon-name="zoom"></span>
+			</section>
+			<section class="si-icons si-icons-easing">
+				<h2>With different speeds &amp; easings</h2>
+				<span class="si-icon si-icon-nav-left-arrow" data-icon-name="navLeftArrow"></span>
+				<span class="si-icon si-icon-hamburger" data-icon-name="hamburger"></span>
+				<span class="si-icon si-icon-plus" data-icon-name="plus"></span>
+				<span class="si-icon si-icon-volume" data-icon-name="volume"></span>
+				<span class="si-icon si-icon-hourglass" data-icon-name="hourglass"></span>
+				<span class="si-icon si-icon-equalizer" data-icon-name="equalizer"></span>
+				<span class="si-icon si-icon-hamburger-cross" data-icon-name="hamburgerCross"></span>
+				<span class="si-icon si-icon-maximize" data-icon-name="maximize"></span>
+				<span class="si-icon si-icon-contract" data-icon-name="contract"></span>
+				<span class="si-icon si-icon-trash" data-icon-name="trash"></span>
+				<span class="si-icon si-icon-clock" data-icon-name="clock"></span>
+				<span class="si-icon si-icon-glass-empty" data-icon-name="glass"></span>	
+			</section>
+			<section class="si-icons si-icons-hover">
+				<h2>Different size &amp; animation on hover</h2>
+				<span class="si-icon si-icon-clock" data-icon-name="clock"></span>
+				<span class="si-icon si-icon-zoom" data-icon-name="zoom"></span>
+				<span class="si-icon si-icon-flag" data-icon-name="flag"></span>
+				<span class="si-icon si-icon-equalizer" data-icon-name="equalizer"></span>
+				<span class="si-icon si-icon-hamburger" data-icon-name="hamburger"></span>
+				<span class="si-icon si-icon-maximize" data-icon-name="maximize"></span>
+			</section>
+			<section class="related">
+				<p>If you enjoyed these effects you might also like:</p>
+				<div><a href="http://tympanus.net/Development/AnimatedCheckboxes/"><h4>Animated Checkboxes with SVG</h4></a></div>
+				<div><a href="http://tympanus.net/Development/IconHoverEffects/"><h4>Icon Hover Effects</h4></a></div>
+			</section>
+		</div><!-- /container -->
+		<script src="js/svgicons-config.js"></script>
+		<script src="js/svgicons.js"></script>
+		<script>
+			(function() {
+				// initialize all
+				
+				[].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
+					var svgicon = new svgIcon( el, svgIconConfig );
+				} );
+
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-nav-left-arrow' ), svgIconConfig, { easing : mina.backin } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-hamburger' ), svgIconConfig, { easing : mina.backin } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-plus' ), svgIconConfig, { easing : mina.backin } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-volume' ), svgIconConfig, { easing : mina.backin } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-hourglass' ), svgIconConfig, { easing : mina.backin } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-equalizer' ), svgIconConfig, { easing : mina.backin } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-hamburger-cross' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-trash' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-clock' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-maximize' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-contract' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+				new svgIcon( document.querySelector( '.si-icons-easing .si-icon-glass-empty' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-clock' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-hamburger' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-flag' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-zoom' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-maximize' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+				new svgIcon( document.querySelector( '.si-icons-hover .si-icon-equalizer' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 128, h : 128 } } );
+			})();
+		</script>
+	</body>
+</html>

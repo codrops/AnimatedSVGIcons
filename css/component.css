@@ -1,0 +1,41 @@
+.si-icons span {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin: 40px 30px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.si-icons-hover span {
+	width: 128px;
+	height: 128px;
+	margin: 50px 40px;
+}
+
+/* Fallback for browsers that don't support SVG - Generated with http://iconizr.com/ */
+
+.no-svg .si-icon-clock { background-image: url('../png/clock.png') }
+.no-svg .si-icon-contract { background-image: url('../png/contract.png') }
+.no-svg .si-icon-down-arrow { background-image: url('../png/down-arrow.png') }
+.no-svg .si-icon-equalizer { background-image: url('../png/equalizer.png') }
+.no-svg .si-icon-flag { background-image: url('../png/flag.png') }
+.no-svg .si-icon-glass-empty { background-image: url('../png/glass.png') }
+.no-svg .si-icon-hamburger, .no-svg .si-icon-hamburger-cross { background-image: url('../png/hamburger.png') }
+.no-svg .si-icon-hourglass { background-image: url('../png/hourglass.png') }
+.no-svg .si-icon-mail { background-image: url('../png/mail.png') }
+.no-svg .si-icon-maximize, .no-svg .si-icon-maximize-rotate { background-image: url('../png/maximize.png') }
+.no-svg .si-icon-monitor { background-image: url('../png/monitor.png') }
+.no-svg .si-icon-nav-left-arrow { background-image: url('../png/nav-left-arrow.png') }
+.no-svg .si-icon-nav-up-arrow { background-image: url('../png/nav-up-arrow.png') }
+.no-svg .si-icon-lock { background-image: url('../png/padlock.png') }
+.no-svg .si-icon-play { background-image: url('../png/play.png') }
+.no-svg .si-icon-plus, .no-svg .si-icon-plus-cross { background-image: url('../png/plus.png') }
+.no-svg .si-icon-right-arrow { background-image: url('../png/right-arrow.png') }
+.no-svg .si-icon-smiley { background-image: url('../png/smiley.png') }
+.no-svg .si-icon-trash { background-image: url('../png/trash.png') }
+.no-svg .si-icon-volume { background-image: url('../png/volume.png') }
+.no-svg .si-icon-zoom { background-image: url('../png/zoom.png') }
+
+/* alternatively you can define that there is no background image when SVG is supported instead of using .no-svg */

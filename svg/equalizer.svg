@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill="none" stroke="#fff" stroke-width="5" d="m 12,49 11,0"/>
+		<path fill="none" stroke="#fff" stroke-width="5" d="m 26.5,15 11,0"/>
+		<path fill="none" stroke="#fff" stroke-width="5" d="m 41,30 11,0"/>
+		<path fill="none" stroke="#fff" stroke-width="5" d="m 17.5,57 0,-50"/>
+		<path fill="none" stroke="#fff" stroke-width="5" d="M 32,57 32,7" />
+		<path fill="none" stroke="#fff" stroke-width="5" d="m 46.5,57 0,-50"/>
+	</g>
+</svg>
